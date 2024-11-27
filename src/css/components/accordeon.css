@@ -13,11 +13,12 @@ summary {
 details {
     position: relative;
     min-width: 100px;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease;
     display: block;
 }
 
 details[open] {
+    transition-duration: 0.3s;
     display: block;
     width: 100%;
 }
@@ -39,10 +40,10 @@ details > summary::-webkit-details-marker {
     height: 0; 
     border-top: 30px solid transparent;
     border-bottom: 30px solid transparent;
-
     border-left: 30px solid grey;
   }
 details[open] .arrow {
+    transition-duration: 0.3s;
     transform: rotate(90deg);
-
+    border-left: 30px solid pink;
 }
