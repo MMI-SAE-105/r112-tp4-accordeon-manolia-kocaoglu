@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : Kocaoglu
+- prénom : Manolia
+- URL Netlify : https://heroic-taiyaki-e5fe68.netlify.app 
 
 # Travail
 
